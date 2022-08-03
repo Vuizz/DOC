@@ -31,7 +31,7 @@ function expandC(){
         return c = 0
     }
     else {
-        document.getElementById("FAQ3").innerHTML = "The game starts once all nft have been minted and ends once all clues have been discorved"
+        document.getElementById("FAQ3").innerHTML = "The game starts once all nft have been minted and ends once all clues have been discovered"
         return c = 1
     }
 }
