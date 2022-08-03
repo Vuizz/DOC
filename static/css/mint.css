@@ -1,0 +1,146 @@
+.MintBox {
+  width: max-content;
+  margin: auto;
+  height: 550px;
+  z-index: 1;
+}
+
+.order {
+  margin: auto;
+  width: 300px;
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.numberBox {
+  border: 3px solid black;
+  width: fit-content;
+  height: fit-content;
+  border-radius: 20px;
+  background-color: white;
+}
+#QuestionMark {
+  border-radius: 45px;
+  border: solid 8px black;
+  visibility: hidden;
+}
+
+#QuestionMark2 {
+  border-radius: 45px;
+  border: solid 8px black;
+}
+
+#QuestionMark3 {
+  visibility: hidden;
+  border-radius: 45px;
+  border: solid 8px black;
+}
+
+.MintButton{
+  width: fit-content;
+  margin: auto;
+  margin-top: 40px;
+  font-size: 32px;
+  cursor: pointer;
+}
+
+.MintButton p {
+  border: 4px solid black;
+  border-radius: 20px;
+  padding: 10px 20px;
+  color: rgba(221,241,195,1);
+}
+
+#Amount {
+  font-size: 30px;
+  text-align: center;
+  border: 4px solid rgba(221,241,195,1);
+  padding: 10px;
+  border-radius: 15px;
+}
+
+#Plus {
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  margin-top: 32px;
+}
+
+#Minus {
+  width: 50px;
+  height: 50px;
+  margin-top: 32px;
+  cursor: pointer;
+}
+
+.MintInfo {
+  position: absolute;
+  z-index: 2;
+  width: 600px;
+  height: 600px;
+  border-radius: 45px;
+  border: 8px solid black;
+  background-color: rgba(221,241,195,1);
+  padding: 20px 20px;
+  margin-left: 650px;
+  visibility: hidden;
+}
+
+.Addressheader {
+  text-align: center;
+  padding: 10px 10px;
+  margin-top: 20px;
+}
+
+.Addressholder {
+  background-color: rgba(48,82,82,1);
+  color: white;
+  text-align: center;
+  padding: 10px 10px;
+  border: 4px solid black;
+  border-radius: 25px;
+}
+
+.Closebutton {
+  margin-left: 85%;
+  padding: 5px 5px;
+  text-align: center;
+  border: solid 4px black;
+  border-radius: 15px;
+  color: white;
+  background-color: rgba(48,82,82,1);
+  cursor: pointer;
+}
+
+.Amountheader {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.Amountholder {
+  background-color: rgba(48,82,82,1);
+  color: white;
+  text-align: center;
+  padding: 10px 10px;
+  border: 4px solid black;
+  border-radius: 25px;
+}
+.Walletheader {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.Walletholder {
+  background-color: rgba(48,82,82,1);
+  color: white;
+  text-align: center;
+  padding: 10px 10px;
+  border: 4px solid black;
+  border-radius: 25px;
+}
+
+.Walletwarning {
+  text-align: center;
+  margin-top: 10px;
+}

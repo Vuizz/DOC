@@ -1,0 +1,47 @@
+.Gblock {
+  width: 1400px;
+  height: max-content;
+  margin: auto;
+  margin-top: 20px;
+  display: flex;
+  justify-content:space-around;
+  padding: 0 10px;;
+}
+
+.InGblock {
+  width: 600px;
+  height: 600px;
+  
+}
+
+.InGblock img {
+  width: 600px;
+  height: 600px;
+  border-radius: 45px;
+  border: solid black 8px;
+
+  }
+
+.faqs {
+  width: 600px;
+  height: 130px;
+  border: solid black 8px;
+  border-radius: 45px;
+  text-align: left;
+  padding: 40px;
+  font-size: 20px;
+  color: rgba(221,241,195,1);
+  cursor: pointer;
+}
+
+.titlebox {
+  width: max-content;
+  margin: auto;
+}
+
+.faqs:hover{
+  animation-delay: 1500ms;
+  border: solid rgba(221,241,195,1) 8px;
+  color: black;
+
+}

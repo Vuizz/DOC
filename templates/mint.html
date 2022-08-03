@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="../static/css/mint.css" rel="stylesheet" />
+    <link href="../static/css/team.css" rel="stylesheet" />
+    <title>Mint</title>
+</head>
+<body class="MintBody">
+    <nav class="imgBox">
+        <a href="../"><img src="../static/images/home_test.png" title="Home"></a>
+        <a href="../team"><img src="../static/images/team_test.png" title="Team"/></a>
+        <a href="../about"><img src="../static/images/about_test.png" title="About"/></a>
+        <a href="../game"><img src="../static/images/game_test.png" title="Game"/></a>
+    </nav>
+    <div class="titles">
+        <img class="titleabt" src="../static/images/mint_title.png"/>
+        </div>
+        <div class="MintInfo" id="MintScreen">
+            <p class="Closebutton" onclick="closemintscreen()">Close</p>
+            <p class="Addressheader"> Address to send ADA to :</p>
+            <p class="Addressholder"> replace with address</p>
+            <p class="Amountheader"> Amount to send :</p>
+            <p class="Amountholder" id="mintCost"> 8 ADA </p>
+            <p class="Walletheader"> Accepted wallets :</p>
+            <p class="Walletholder"> Nami, Etenrl</p>
+            <p class="Walletwarning"> Do not send funds from exchange directly to mint address</p>
+        </div>
+    <div class="MintBox">
+        <div class="QuestionImage">
+            <img id='QuestionMark' src="../static/images/QuestionMark.png"/>
+            <img id='QuestionMark2' src="../static/images/QuestionMark.png"/>
+            <img id='QuestionMark3' src="../static/images/QuestionMark.png"/>
+        </div>
+        <div class="order">
+            <img id="Minus" src="../static/images/MinusIcon.png" onclick="Decrement()"/>
+                <p id="Amount"> 1 </p>
+            <img id='Plus' src="../static/images/PlusIcon.png" onclick="Increment()"/>  
+        </div>
+        <div class="MintButton" onclick="popmintscreen()">
+            <p> Mint </p>
+        </div>
+    </div>
+    <script src="../static/Scripts/mint.js"></script>
+</body>
+<footer>
+    <p>©2022 DROGSOFFCHAIN. ALL RIGHTS RESERVED.</p>
+</footer>
+</html>

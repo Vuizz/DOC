@@ -1,0 +1,26 @@
+.GameFaqBox1 {
+    width: 1400px;
+    height: 200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 120px;
+}
+
+.GameFaqBox2 {
+    width: 1400px;
+    height: 200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.Faq1 {
+    width: 600px;
+    height: fit-content;
+    border: 8px solid black;
+    text-align: center;
+    border-radius: 25px;
+    color: rgba(221,241,195,1);
+    font-size: 1.5rem;
+    cursor: pointer;
+}
