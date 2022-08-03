@@ -5,8 +5,8 @@
 
 body {
     background: rgba(48,82,82,1);
-    max-width: auto;
-    max-height: auto;
+    width: auto;
+    height: auto;
     font-family:fantasy;
 }
 
