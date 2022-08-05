@@ -1,4 +1,4 @@
-from webapp.settings import *
+from .settings import *
 import sys
 import os
 def find_or_create_secret_key():
