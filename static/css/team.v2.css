@@ -28,15 +28,14 @@ body {
 .titles {
   padding: 40px 0;
   text-align: center;
+  z-index: 1;
 }
 
 
 .Pfp {
-  display: flex;
-  justify-content: space-evenly;
   align-items: center;
   margin: auto;
-  width: 100%;
+  width: fit-content;
   
 }
 
@@ -46,7 +45,6 @@ body {
   width: 350px;
   height: 350px;
   border-radius: 45px;
-  cursor: pointer;
   
 }
 
@@ -59,13 +57,9 @@ body {
   padding: 20px 0;
   width: 350px;
   text-align: center;
-  font-size: 30px;
+  font-size: 40px;
   color: rgba(221,241,195,1) ;
   
-}
-
-.description:hover {
-  cursor: pointer;
 }
 
 footer p {
@@ -81,3 +75,23 @@ footer {
   position: fixed;
 }
 
+.Teambody{
+  font-family: Bungee;
+}
+
+.Bigbox{
+  display: flex;
+  justify-content: space-around;
+  width: fit-content;
+  margin: auto;
+}
+
+.Descriptionbox{
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 80px;
+  width: fit-content;
+  height: fit-content;
+  text-align: center;
+  font-size: 25px;
+}
