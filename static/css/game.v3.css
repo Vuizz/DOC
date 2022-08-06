@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+
+.GameFaqBox1 {
+    width: 1320px;
+    height: 200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+
+.GameFaqBox2 {
+    width: 1320px;
+    height: 200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+.Faq1 {
+    width: 600px;
+    height: fit-content;
+    border: 8px solid black;
+    text-align: center;
+    border-radius: 45px;
+    padding: 20px;
+    color: rgba(221,241,195,1);
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.Gamebody{
+    font-family: Bungee;
+}
+
+#Faq1{
+    background-color: red;
+}
+
+#Faq2{
+    background-color: blue;
+}
+
+#Faq3{
+    background-color: green;
+}
+
+#Faq4{
+    background-color: purple;
+}
