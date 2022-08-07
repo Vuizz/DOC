@@ -50,10 +50,8 @@ body {
 }
 
 .description {
-  width: 104px;
-  height: 46px;
-  margin-left: 35%;
   margin-top: 15px;
+  margin-left: 65px;
 }
 
 footer p {
@@ -78,6 +76,7 @@ footer {
   justify-content: space-around;
   width: fit-content;
   margin: auto;
+  margin-top: 7.5%;
 }
 
 .Descriptionbox{
