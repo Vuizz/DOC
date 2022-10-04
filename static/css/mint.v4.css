@@ -84,13 +84,13 @@
 .MintInfo {
   position: absolute;
   z-index: 2;
-  width: 600px;
+  width: 800px;
   height: fit-content;
   border-radius: 45px;
   border: 8px solid black;
   background-color: rgba(221,241,195,1);
   padding: 20px 20px;
-  margin-left: 650px;
+  margin-left: 550px;
   visibility: hidden;
   bottom: 100px;
 }
