@@ -66,7 +66,7 @@ function extend3(){
         return d = 0
     }
     else{
-        par = "update with policy id"
+        par = "6d8b7992b111347d44c5318e8f79f0411aaba26466a7ab7a4fc3f119"
         document.getElementById("PolicyId").innerHTML = par
         document.getElementById("PolicyId").style.backgroundColor = 'rgba(221,241,195,1)'
         document.getElementById("PolicyId").style.color = 'black'
