@@ -12,7 +12,7 @@ function expandA(){
         return a = 0
     }
     else {
-        document.getElementById("FAQ1").innerHTML = "22 clues are hidden across drogsoffchain metadata <br> A prize pool of ada is awarded to the winner"
+        document.getElementById("FAQ1").innerHTML = "22 clues are available for each game <br> A prize pool of ada is awarded to the winner"
         document.getElementById('FAQ1').style.fontSize = '15.5px'
         document.getElementById("Faq1").style.backgroundColor = 'rgba(221,241,195,1)'
         document.getElementById("FAQ1").style.color = 'black'
@@ -30,7 +30,7 @@ function expandB(){
         return b = 0
     }
     else {
-        document.getElementById("FAQ2").innerHTML = "Each holder gets 1 guess per clue for each drogsoffchain nft they hold in their wallet"
+        document.getElementById("FAQ2").innerHTML = "The game will be played in the discord channel. Each holder gets 1 guess per clue for each drogsoffchain nft they hold in their wallet"
         document.getElementById('FAQ2').style.fontSize = '15.5px'
         document.getElementById("Faq2").style.backgroundColor = 'rgba(221,241,195,1)'
         document.getElementById("FAQ2").style.color = 'black'
@@ -48,7 +48,7 @@ function expandC(){
         return c = 0
     }
     else {
-        document.getElementById("FAQ3").innerHTML = "The game starts once all nft have been minted and ends once all clues have been discovered"
+        document.getElementById("FAQ3").innerHTML = "The game starts once all the nfts have been minted and ends once all clues have been discovered"
         document.getElementById('FAQ3').style.fontSize = '15.5px'
         document.getElementById("Faq3").style.backgroundColor = 'rgba(221,241,195,1)'
         document.getElementById("FAQ3").style.color = 'black'
