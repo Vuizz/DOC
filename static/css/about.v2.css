@@ -35,6 +35,8 @@
   color: rgba(221,241,195,1);
   cursor: pointer;
   vertical-align: middle;
+  display: flex;
+  justify-content: center;
   
 
 }

@@ -64,6 +64,8 @@ function extend3(){
         document.getElementById("PolicyId").style.backgroundColor = 'transparent'
         document.getElementById("PolicyId").style.color = 'rgba(221,241,195,1)'
         document.getElementById("PolicyId").style.fontSize = "20px"
+        document.getElementById("PolicyId").style.height= 'auto'
+        document.getElementById("PolicyId").style.lineHeight= "51px"
         return d = 0
     }
     else{
@@ -72,6 +74,9 @@ function extend3(){
         document.getElementById("PolicyId").style.backgroundColor = 'rgba(221,241,195,1)'
         document.getElementById("PolicyId").style.color = 'black'
         document.getElementById("PolicyId").style.fontSize = "14px"
+        document.getElementById("PolicyId").style.height= "127px"
+        document.getElementById("PolicyId").style.textAlign= 'middle'
+        document.getElementById("PolicyId").style.lineHeight= "58.5px"
         return d = 1
     }
 }
