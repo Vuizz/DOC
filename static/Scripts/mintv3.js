@@ -38,7 +38,7 @@ function Decrement(){
 
 function popmintscreen(){
     document.getElementById('MintScreen').style.visibility = 'visible'
-    cost = number * 5.5
+    cost = number * 53
     document.getElementById('mintCost').innerHTML = `${cost} ADA`
 }
 

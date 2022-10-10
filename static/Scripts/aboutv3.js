@@ -30,7 +30,7 @@ function extend1(){
         return b = 0
     }
     else{
-        par = "5.5 ada per Drog <br> Max 3 drogs per transaction"
+        par = "53 ada per Drog <br> Max 3 drogs per transaction"
         document.getElementById("MintPrice").innerHTML = par
         document.getElementById("MintPrice").style.padding = '4.5px'
         document.getElementById("MintPrice").style.backgroundColor = 'rgba(221,241,195,1)'
@@ -67,7 +67,7 @@ function extend3(){
         return d = 0
     }
     else{
-        par = "6d8b7992b111347d44c5318e8f79f0411aaba26466a7ab7a4fc3f119"
+        par = "2059480449c9ef509465e001c3bbd5d04528e70c7cb3345537ca478d"
         document.getElementById("PolicyId").innerHTML = par
         document.getElementById("PolicyId").style.backgroundColor = 'rgba(221,241,195,1)'
         document.getElementById("PolicyId").style.color = 'black'
