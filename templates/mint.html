@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <link href="../static/css/mint.v6.css" rel="stylesheet" />
+    <link href="../static/css/mint.v7.css" rel="stylesheet" />
     <link href="../static/css/team.v6.css" rel="stylesheet" />
     <title>Mint</title>
 </head>
@@ -34,13 +34,17 @@
                 <p id="Amount"> 1 </p>
             <img id='Plus' src="../static/images/PlusIcon.png" onclick="Increment()"/>  
         </div>
-        <div class="MintButton" onclick="popmintscreen()">
-            <p> Mint </p>
-        </div>
     </div>
-    <div id="demo1"> COUNTDOWN <div id="demo"> </div></div>
-    <script src="../static/Scripts/mintv5.js"></script>
-    <script src="../static/Scripts/counterv3.js"></script>
+    <div id="demo1"> 
+        COUNTDOWN 
+        <div id="demo"> </div>
+    </div>
+    <div class="MintButton" id="mntbtn" onmouseover="onhover()" onmouseout="outhover()" onclick="popmintscreen()">
+        <p> Mint </p>
+    </div>
+    <script src="../static/Scripts/mintv6.js"></script>
+    <script src="../static/Scripts/counterv4.js"></script>
+    <script src="../static/Scripts/hover.js"></script>
 </body>
 <footer>
     <p>©2022 DROGSOFFCHAIN. ALL RIGHTS RESERVED.</p>
