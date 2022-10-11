@@ -1,11 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
 
+#demo1 {
+  margin-left: 1200px;
+  position: absolute;
+  z-index: 2;
+  bottom: 45%;
+  right: 400px;
+  font-size: 52px;
+  width: fit-content;
+  text-align: center;
+}
+
+#demo{
+  font-size: 32px;
+}
+
 .MintBox {
-  width: max-content;
+  width: fit-content;
   margin: auto;
   height: 550px;
   z-index: 1;
   margin-top: 7.5%;
+  margin-left: 200px;
 }
 
 .order {
@@ -83,7 +99,7 @@
 
 .MintInfo {
   position: absolute;
-  z-index: 2;
+  z-index: 3;
   width: 820px;
   height: fit-content;
   border-radius: 45px;
