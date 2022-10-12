@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
 
 .home_body {
-  background: url("../images/backgrndv2.png");
+  background: url("../images/backgrndv3.png");
   font-family: Bungee;
 }
 
@@ -12,4 +12,25 @@
   margin-left: 1165px;
   display: flex;
   justify-content: space-around;
+}
+
+#eye1{
+  position: absolute;
+  top: 379px;
+  left: 502px;
+
+}
+
+#eye2{
+  position: absolute;
+  top: 379px;
+  left: 407px;
+}
+
+#anchor{
+  position: absolute;
+  left: 84px;
+  top: -3px;
+  width: 659px;
+  height: 942px;
 }

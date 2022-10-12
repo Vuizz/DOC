@@ -57,3 +57,26 @@
 .Aboutbody{
   font-family: Bungee;
 }
+
+#anchor{
+  position: absolute;
+  width: 589px;
+  height: 597px;
+  border: 4px solid black;
+  top: 208px;
+  left: 308px;  
+}
+
+#eye1{
+  position: absolute;
+  top: 413px;
+  left: 612px;
+  width: 18px;
+}
+
+#eye2{
+  position: absolute;
+  top: 413px;
+  left: 662px;
+  width: 18px;
+}
